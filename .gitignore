@@ -1,0 +1,25 @@
+# Fichier .gitignore pour le projet HealthMind
+
+# Dépendances et fichiers de build
+/node_modules
+/frontend/node_modules
+/frontend/.next
+/frontend/out
+/backend/venv
+/backend/__pycache__
+
+# Fichiers de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers d'environnement (NE JAMAIS COMMIT LES CLÉS SECRETES)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Fichiers système
+.DS_Store
+Thumbs.db

@@ -1,0 +1,26 @@
+# Fichier de dépendances Python pour le backend HealthMind
+
+# Framework pour l'API
+fastapi
+
+# Serveur ASGI pour FastAPI
+uvicorn[standard]
+
+# Client Python pour Supabase
+supabase
+
+# Pour gérer les variables d'environnement (clés API, etc.)
+python-dotenv
+
+# Pour la synthèse vocale (Text-to-Speech)
+gTTS
+
+# Pour la reconnaissance vocale (Speech-to-Text) - Alternative à Whisper auto-hébergé
+# ou pour le traitement des fichiers audio
+openai-whisper
+
+# Pour la manipulation des fichiers audio
+pydub
+
+# Pour interagir avec les API externes (Hugging Face, LogMeal)
+httpx
