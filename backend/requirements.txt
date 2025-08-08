@@ -24,3 +24,6 @@ pydub
 
 # Pour interagir avec les API externes (Hugging Face, LogMeal)
 httpx
+
+# Nécessaire pour FastAPI pour gérer les données de formulaire (UploadFile)
+python-multipart
