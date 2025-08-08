@@ -47,7 +47,7 @@ const LoginPage: NextPage = () => {
         <p className="text-sm text-center text-gray-400">
           Pas encore de compte ?{" "}
           <a href="#" className="font-bold text-blue-500 hover:underline">
-            S'inscrire
+            S&apos;inscrire
           </a>
         </p>
       </div>
