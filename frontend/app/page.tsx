@@ -4,7 +4,7 @@
 
 import { useState, FormEvent } from 'react';
 import { useRouter } from 'next/navigation'; // Pour la redirection après connexion
-import { supabase } from '../supabaseClient'; // Importe le client Supabase
+import { supabase } from '../src/supabaseClient'; // Importe le client Supabase
 
 const LoginPage = () => {
   const [email, setEmail] = useState<string>('');
