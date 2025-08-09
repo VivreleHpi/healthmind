@@ -20,7 +20,7 @@ export default async function DashboardLayout({
   }
 
   const handleLogout = async () => {
-    'use server';
+    &apos;use server&apos;;
     await supabase.auth.signOut();
     redirect('/');
   };
