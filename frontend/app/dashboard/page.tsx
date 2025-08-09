@@ -26,7 +26,7 @@ const DashboardPage = () => {
         <h3 className="text-2xl font-bold text-gray-800 mb-4">Activités Récentes</h3>
         <ul className="list-disc list-inside text-gray-700">
           <li className="mb-2">Activité 1 : Quelque chose s'est passé.</li>
-          <li className="mb-2">Une autre action a été enregistrée.</li>
+          <li className="mb-2">Une autre action a été enregistr&apos;e.</li>
           <li>Dernière mise à jour.</li>
         </ul>
       </div>
