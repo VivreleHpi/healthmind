@@ -8,7 +8,7 @@ const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
 // Vérifier si les variables sont bien définies
 if (!supabaseUrl || !supabaseAnonKey) {
-  throw new Error('Les variables d'environnement Supabase (URL et Anon Key) sont manquantes.');
+  throw new Error("Les variables d'environnement Supabase (URL et Anon Key) sont manquantes.");
 }
 
 // Créer et exporter le client Supabase
